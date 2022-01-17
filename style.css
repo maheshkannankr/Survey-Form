@@ -1,18 +1,18 @@
 body {
-  background-color: rgb(162, 192, 247);
+  background-color: #072227;
   font-family: "Teko", sans-serif;
   letter-spacing: 2px;
   font-weight: 300;
   font-size: 20px;
 }
 .formbg {
-  background-color: cornsilk;
+  background-color: #35858b;
   border-radius: 20px;
   margin: 100px;
   padding: 50px;
 }
 input:focus {
-  background-color: rgb(210, 218, 255);
+  background-color: #ca965c;
 }
 .sec {
   padding: 10px;
@@ -22,7 +22,7 @@ legend {
 }
 .fullborder {
   padding: 30px;
-  border: 15px double black;
+  border: 15px double #072227;
   border-radius: 20px;
 }
 input[type="text"] {
@@ -73,7 +73,8 @@ input {
 button[type="submit"] {
   position: relative;
   width: auto;
-  background-color: cyan;
+  background-color: #072227;
+  color: #aefeff;
   padding: 17px 10px;
   width: 30%;
   border-radius: 10px;
@@ -95,8 +96,14 @@ input[type="file"]::file-selector-button {
   text-align: center;
 }
 button[type="submit"]:hover {
-  background-color: burlywood;
+  background-color: #4fbdba;
 }
 input[type="file"]::file-selector-button:hover {
-  background-color: burlywood;
+  background-color: #4fbdba;
+}
+.mt {
+  margin-top: 20px;
+}
+.ml {
+  margin-left: 50px;
 }
